@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Ahaz-Codes</title>
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg bg-dark navbar-dark py-3 fixed-top">
+      <div class="container">
+        <a href="./index.html" class="navbar-brand">Ahaz-Codes<span class="text-secondary lead"> Bootcamp </span></a>
+
+        <button
+          class="navbar-toggler w-5"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navmenu"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navmenu">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a href="./index.html" class="nav-link">Home</a>
+            </li>
+            <li class="nav-item">
+              <a href="./index.html" class="nav-link">What You'll Learn</a>
+            </li>
+            <li class="nav-item">
+              <a href="#instructors" class="nav-link">instructors</a>
+            </li>
+            <li class="nav-item">
+              <a href="#" class="nav-link"  data-bs-toggle="modal"
+              data-bs-target="#contact">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+
+    <section class="bg-light text-dark p-3">
+
+        <h3 class="text-center p-3">
+            <i class="bi bi-book"></i>
+           <span class="p-3">Curiculem</span> 
+        </h3>
+
+        <div class="accordion" id="accordionExample">
+          <div class="accordion-item">
+              <h2 class="accordion-header" id="headingOne">
+                  <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+                      Web Development
+                  </button>
+              </h2>
+              <div id="collapseOne" class="accordion-collapse collapse " aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                  <div class="accordion-body">
+      
+                      <div class="accordion" id="sub-accordionExample">
+                          <div class="accordion-item">
+                              <h2 class="accordion-header" id="sub-headingOne">
+                                  <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#sub-collapseOne" aria-expanded="false" aria-controls="sub-collapseOne">
+                                    <div class="text-dark">HTML5</div> 
+                                    
+                                  </button>
+                              </h2>
+                              
+                              <div id="sub-collapseOne" class="accordion-collapse collapse " aria-labelledby="sub-headingOne" data-bs-parent="#sub-accordionExample">
+                                 
+                                         <ul class="list-group pt-3">
+                                          <li class="list-group-item"><span class="mx-2"></span> Basic Overview</li>
+                                          <li class="list-group-item"><span class="mx-2"></span>Document Handling</li>
+                                          <li class="list-group-item"><span class="mx-2"></span>Tags</li>
+                                          <li class="list-group-item"><span class="mx-2"></span>Links</li>
+                                          <li class="list-group-item"><span class="mx-2"></span>Forms</li>
+                                          <li class="list-group-item"><span class="mx-2"></span>Table</li>
+                                          <li class="list-group-item"><span class="mx-2"></span>Images</li>
+                                        </ul>
+                                       
+                          </div>
+                          <div class="accordion-item">
+                              <h2 class="accordion-header" id="sub-headingTwo">
+                                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#sub-collapseTwo" aria-expanded="false" aria-controls="sub-collapseTwo">
+                                      CSS
+                                  </button>
+                              </h2>
+                              <div id="sub-collapseTwo" class="accordion-collapse collapse" aria-labelledby="sub-headingTwo" data-bs-parent="#sub-accordionExample">
+                                  <div class="accordion-body">
+                                      <strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                                  </div>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+      
+           </div>
+            </div>
+      </div>
+
+          
+       <!--
+        second choice
+      -->        
+      <div class="accordion" id="accordionExample">
+        <div class="accordion-item">
+            <h2 class="accordion-header" id="headingTwo">
+                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                   Basic Programming
+                </button>
+            </h2>
+            <div id="collapseTwo" class="accordion-collapse collapse " aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+    
+                    <div class="accordion" id="sub-accordionExample">
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="sub-headingThree">
+                                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#sub-collapseThree" aria-expanded="false" aria-controls="sub-collapseOne">
+                                  <div class="text-dark">Python</div> 
+                                  
+                                </button>
+                            </h2>
+                            
+                            <div id="sub-collapseThree" class="accordion-collapse collapse " aria-labelledby="sub-headingThree" data-bs-parent="#sub-accordionExample">
+                               
+                              <div class="accordion-body">
+                                <strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                            </div>
+                                     
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="sub-headingFour">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#sub-collapseFour" aria-expanded="false" aria-controls="sub-collapseTwo">
+                                    C
+                                </button>
+                            </h2>
+                            <div id="sub-collapseTwo" class="accordion-collapse collapse" aria-labelledby="sub-headingTwo" data-bs-parent="#sub-accordionExample">
+                                <div class="accordion-body">
+                                    <strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    
+        </div>
+    </div>
+    </section>
+  
+                     <!--
+<ul class="list-group py-3">
+                        <li class="list-group-item active text-center" aria-current="true">Lessons</li>
+                        <li class="list-group-item"><i class="bi bi-chevron-right mx-2"></i>Basic Overview</li>
+                        <li class="list-group-item"><i class="bi bi-chevron-right mx-2"></i>Document Handling</li>
+                        <li class="list-group-item"><i class="bi bi-chevron-right mx-2"></i>Tags</li>
+                        <li class="list-group-item"><i class="bi bi-chevron-right mx-2"></i>Links</li>
+                        <li class="list-group-item"><i class="bi bi-chevron-right mx-2"></i>Forms</li>
+                        <li class="list-group-item"><i class="bi bi-chevron-right mx-2"></i>Table</li>
+                        <li class="list-group-item"><i class="bi bi-chevron-right mx-2"></i>Images</li>
+                      </ul>
+                     --> 
+    <section id="instructors" class="p-5 bg-secondary">
+        <div class="container">
+          <h2 class="text-center text-white">Our Instructors</h2>
+          <p class="lead text-center text-white mb-5">
+            Our instructors all have 3+ years working as a web developer in the
+            industry
+          </p>
+          <div class="row g-4">
+            <div class="col-md-6 col-lg-3">
+              <div class="card bg-light">
+                <div class="card-body text-center">
+                  <img
+                    src="https://randomuser.me/api/portraits/men/11.jpg"
+                    class="rounded-circle mb-3"
+                    alt=""
+                  />
+                  <h3 class="card-title mb-3">John Doe</h3>
+                  <p class="card-text">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Assumenda accusamus nobis sed cupiditate iusto? Quibusdam.
+                  </p>
+                  <a href="#"><i class="bi bi-twitter text-dark mx-1"></i></a>
+                  <a href="#"><i class="bi bi-facebook text-dark mx-1"></i></a>
+                  <a href="#"><i class="bi bi-linkedin text-dark mx-1"></i></a>
+                  <a href="#"><i class="bi bi-instagram text-dark mx-1"></i></a>
+                </div>
+              </div>
+            </div>
+  
+            <div class="col-md-6 col-lg-3">
+              <div class="card bg-light">
+                <div class="card-body text-center">
+                  <img
+                    src="https://randomuser.me/api/portraits/women/11.jpg"
+                    class="rounded-circle mb-3"
+                    alt=""
+                  />
+                  <h3 class="card-title mb-3">Jane Doe</h3>
+                  <p class="card-text">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Assumenda accusamus nobis sed cupiditate iusto? Quibusdam.
+                  </p>
+                  <a href="#"><i class="bi bi-twitter text-dark mx-1"></i></a>
+                  <a href="#"><i class="bi bi-facebook text-dark mx-1"></i></a>
+                  <a href="#"><i class="bi bi-linkedin text-dark mx-1"></i></a>
+                  <a href="#"><i class="bi bi-instagram text-dark mx-1"></i></a>
+                </div>
+              </div>
+            </div>
+  
+            <div class="col-md-6 col-lg-3">
+              <div class="card bg-light">
+                <div class="card-body text-center">
+                  <img
+                    src="https://randomuser.me/api/portraits/men/12.jpg"
+                    class="rounded-circle mb-3"
+                    alt=""
+                  />
+                  <h3 class="card-title mb-3">Steve Smith</h3>
+                  <p class="card-text">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Assumenda accusamus nobis sed cupiditate iusto? Quibusdam.
+                  </p>
+                  <a href="#"><i class="bi bi-twitter text-dark mx-1"></i></a>
+                  <a href="#"><i class="bi bi-facebook text-dark mx-1"></i></a>
+                  <a href="#"><i class="bi bi-linkedin text-dark mx-1"></i></a>
+                  <a href="#"><i class="bi bi-instagram text-dark mx-1"></i></a>
+                </div>
+              </div>
+            </div>
+  
+            <div class="col-md-6 col-lg-3">
+              <div class="card bg-light">
+                <div class="card-body text-center">
+                  <img
+                    src="https://randomuser.me/api/portraits/women/12.jpg"
+                    class="rounded-circle mb-3"
+                    alt=""
+                  />
+                  <h3 class="card-title mb-3">Sara Smith</h3>
+                  <p class="card-text">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Assumenda accusamus nobis sed cupiditate iusto? Quibusdam.
+                  </p>
+                  <a href="#"><i class="bi bi-twitter text-dark mx-1"></i></a>
+                  <a href="#"><i class="bi bi-facebook text-dark mx-1"></i></a>
+                  <a href="#"><i class="bi bi-linkedin text-dark mx-1"></i></a>
+                  <a href="#"><i class="bi bi-instagram text-dark mx-1"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      
+      <footer class="p-3 bg-dark text-white text-center position-relative" id="footer">
+        <div class="container">
+          <p class="lead">Copyright &copy; 2021
+            <div> Ahaz-Codes <span class="lead text-secondary ">Bootcamp</span> </div> </p>
+  
+          <a href="#" class="position-absolute bottom-0 end-0 p-3">
+            <i class="bi bi-arrow-up-circle h1"></i>
+          </a>
+        </div>
+      </footer>
+  
+    <script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
+    crossorigin="anonymous"
+  ></script>
+
+</body>
+</html>
